@@ -9,10 +9,10 @@ package exception3;
  * @author Student
  */
 public class MyException extends Exception {
-    public MyException(String msg){
-        super(); // must call parents class
+    public MyException(){
+        super();
     }
     public MyException(String msg){
-        super(msg);
+        super(msg); // must call parents class
     }
 }
